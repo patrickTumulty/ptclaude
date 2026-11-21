@@ -1,0 +1,16 @@
+# ~/.claude/.gitignore: ignore everything, then allow only my config
+/*
+!/.gitignore
+!/CLAUDE.md
+!/settings.json
+!/keybindings.json
+!/output-styles/
+!/agents/
+!/commands/
+!/hooks/
+
+# skills: only my own, never the synced cache
+!/skills/
+/skills/*
+!/skills/my-review/
+!/skills/another-skill/
